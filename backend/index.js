@@ -9,11 +9,11 @@ app.use(express.json()); // this allows us to send any json file using client
 
 
   const db = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "Krishna@2001",
-    database: "Bookstore",
-    port: "5000"
+    host: "bdpmombziykmkumdr4ft-mysql.services.clever-cloud.com",
+    user: "urgf2vnzubwmkryd",
+    password: "HKGcvn3KegyxXCj6Ycio",
+    database: "bdpmombziykmkumdr4ft",
+    port: "3306"
   });
 
 
