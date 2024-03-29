@@ -13,6 +13,7 @@ app.use(express.json()); // this allows us to send any json file using client
     user: "root",
     password: "Krishna@2001",
     database: "Bookstore",
+    port: "3306"
   });
 
 
