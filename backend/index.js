@@ -17,9 +17,9 @@ app.use(express.json()); // this allows us to send any json file using client
   });
 
 
-app.get("/", (req, res) => {
-  res.json("hello");
-});
+// app.get("/", (req, res) => {
+//   res.json("hello");
+// });
 
 app.get("/books", (req, res) => {
   const q = "SELECT * FROM Books";
