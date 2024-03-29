@@ -9,11 +9,11 @@ app.use(express.json()); // this allows us to send any json file using client
 
 
   const db = mysql.createConnection({
-    host: "DB_HOST",
-    user: "DB_USER",
-    password: "DB_PASS",
-    database: "DB_DATABASE",
-    port: "DB_PORT"
+    host: DB_HOST,
+    user: DB_USER,
+    password: DB_PASS,
+    database: DB_DATABASE,
+    port: DB_PORT
   });
 
 
